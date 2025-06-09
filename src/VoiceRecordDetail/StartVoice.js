@@ -26,7 +26,7 @@ function StartVoice() {
                     궁금했던 아기의 마음, 지금 바로 확인해보세요!
                     </p>
                 </div>
-                <img src={process.env.PUBLIC_URL + "/images/voicerecord.png"} alt="voicerecord" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/voicerecord1.png"} alt="voicerecord1" className="scroll-image" />
                 </div>
             </div>
 

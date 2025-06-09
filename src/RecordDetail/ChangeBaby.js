@@ -26,7 +26,7 @@ function ChangeBaby() {
                     여러 아이를 쉽고 빠르게 관리할 수 있어요.
                     </p>
                 </div>
-                <img src={process.env.PUBLIC_URL + "/images/record.png"} alt="record" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/record5.png"} alt="record5" className="scroll-image" />
                 </div>
             </div>
 

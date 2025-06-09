@@ -17,7 +17,7 @@ function NoteDetail() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src={process.env.PUBLIC_URL + "/images/calendar.png"} alt="calendar" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/calendar4.png"} alt="calendar4" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">일지 상세</p>
                     <h2 className="large-title">사진과 함께<br />기록했던 하루를 돌아봐요</h2>

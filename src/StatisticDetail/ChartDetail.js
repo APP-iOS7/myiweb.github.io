@@ -26,7 +26,7 @@ function ChartDetail() {
                     카테고리별로 정리되어 있어요.
                     </p>
                 </div>
-                <img src={process.env.PUBLIC_URL + "/images/statistics.png"} alt="statistics" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/statistics3.png"} alt="statistics3" className="scroll-image" />
                 </div>
             </div>
 

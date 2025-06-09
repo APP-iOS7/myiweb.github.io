@@ -18,7 +18,7 @@ function GrowChart() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src={process.env.PUBLIC_URL + "/images/statistics.png"} alt="statistics" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/statistics4.png"} alt="statistics4" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">성장 곡선</p>
                     <h2 className="large-title">키와 몸무게 변화,<br />한눈에 확인해요</h2>

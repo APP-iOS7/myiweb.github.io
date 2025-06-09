@@ -18,7 +18,7 @@ function AddNewBaby() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src={process.env.PUBLIC_URL + "/images/record.png"} alt="record" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/other3.png"} alt="other3" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">아이 등록</p>
                     <h2 className="large-title">새로운 아이를<br />등록하고 함께 기록해요</h2>

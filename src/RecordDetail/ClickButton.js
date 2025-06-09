@@ -27,7 +27,7 @@ function ClickButton() {
                     아기의 하루를 놓치지 않고 기록할 수 있어요.
                     </p>
                 </div>
-                <img src={process.env.PUBLIC_URL + "/images/record.png"} alt="record" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/record3.png"} alt="record3" className="scroll-image" />
                 </div>
             </div>
 

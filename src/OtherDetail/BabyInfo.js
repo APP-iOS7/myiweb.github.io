@@ -26,7 +26,7 @@ function BabyInfo() {
                     아이를 리스트로 보여줘, 여러 명의 아이도 쉽게 관리할 수 있어요.
                     </p>
                 </div>
-                <img src={process.env.PUBLIC_URL + "/images/record.png"} alt="record" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/other2.png"} alt="other2" className="scroll-image" />
                 </div>
             </div>
 

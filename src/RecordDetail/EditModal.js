@@ -18,7 +18,7 @@ function EditModal() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src={process.env.PUBLIC_URL + "/images/record.png"} alt="record" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/record4.png"} alt="record4" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">기록 수정 기능</p>
                     <h2 className="large-title">기록을 눌러<br />자세히 보고 수정해요</h2>
