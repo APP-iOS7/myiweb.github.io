@@ -1,0 +1,153 @@
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #AFCBFF, white);
+    min-height: auto;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+
+.main-header {
+    position: relative;
+    width: 70%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4b5563;
+    font-size: 0.875rem;
+    margin-bottom: 8rem;
+}
+@media (max-width: 768px) {
+    .main-header {
+        width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    .main-header {
+        width: 100%;
+        gap: 1rem;
+    }
+}
+.main-header.fixed {
+    position: fixed;
+    top: 0;
+    width: 70%;
+    z-index: 1000;
+    background-color: transparent;
+    margin-top: 1rem;
+}
+@media (max-width: 768px) {
+    .main-header.fixed {
+        width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    .main-header.fixed {
+        width: 100%;
+        gap: 1rem;
+    }
+}
+.header-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    background-color: transparent;
+    color: gray;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.header-button:hover {
+    text-decoration: underline;
+}
+.header-button.active {
+    background-color: transparent;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    gap: 0.5rem;
+}
+.logo-image {
+    height: 50px;
+    width: auto;
+}
+
+.main-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    padding: 2rem 0;
+}
+
+.url-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.store-button {
+    height: 60px;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.scroll-arrow {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #4b4b4b;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0) rotate(180deg);
+    }
+    50% {
+        transform: translateY(10px) rotate(180deg);
+    }
+}
+
+.arrow-down span {
+    display: inline-block;
+    transform: rotate(180deg);
+    font-size: 2rem;
+    color: #6b7280;
+    animation: bounce 1.5s infinite;
+}
+
+.fade-init {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+.fade-up {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.8s ease;
+}

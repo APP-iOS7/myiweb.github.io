@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import MainPage from "./MainPage";
+import RecordDetail from './Detail/RecordDetail';
+import CalendarDetail from './Detail/CalendarDetail';
+import VoiceRecordDetail from './Detail/VoiceRecordDetail';
+import StatisticsDetail from './Detail/StatisticsDetail';
+import OtherDetail from './Detail/OtherDetail';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/record" element={<RecordDetail />} />
+        <Route path="/calendar" element={<CalendarDetail />} />
+        <Route path="/voicerecord" element={<VoiceRecordDetail />} />
+        <Route path="/statistic" element={<StatisticsDetail />} />
+        <Route path="/other" element={<OtherDetail />} />
+      </Routes>
+    </Router>
   );
 }
 

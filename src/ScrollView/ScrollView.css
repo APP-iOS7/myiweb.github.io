@@ -1,0 +1,110 @@
+.scroll-view-container {
+    width: 100%;
+    display: flex;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .scroll-view-container {
+        width: 90%;
+    }
+}
+@media (max-width: 480px) {
+    .scroll-view-container {
+        width: 100%;
+        gap: 1rem;
+    }
+}
+
+.scroll-view-container.fade-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-view-container.fade-init {
+    opacity: 0;
+    transform: translateY(40px);
+}
+.scroll-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 1rem;
+}
+
+.scroll-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.scroll-content-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    .scroll-content {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .scroll-content-2 {
+        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+}
+
+.scroll-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+.scroll-image {
+    width: 320px;
+    height: auto;
+}
+
+.little-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3b82f6;
+    margin-bottom: 1rem;
+}
+
+.large-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1rem;
+    color: #4b5563;
+    line-height: 1.6;
+}
+.more-button {
+    padding: 1rem 5rem;
+    font-size: 0.875rem;
+    background-color: rgb(229, 229, 229);
+    color: gray;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.more-button:hover {
+    color: rgb(87, 87, 87);
+}
