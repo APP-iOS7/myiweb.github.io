@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/myiweb.github.io/static/css/main.81028ded.css",
-    "main.js": "/myiweb.github.io/static/js/main.48635d2a.js",
+    "main.js": "/myiweb.github.io/static/js/main.d006a579.js",
     "static/js/453.20108829.chunk.js": "/myiweb.github.io/static/js/453.20108829.chunk.js",
     "index.html": "/myiweb.github.io/index.html",
     "main.81028ded.css.map": "/myiweb.github.io/static/css/main.81028ded.css.map",
-    "main.48635d2a.js.map": "/myiweb.github.io/static/js/main.48635d2a.js.map",
+    "main.d006a579.js.map": "/myiweb.github.io/static/js/main.d006a579.js.map",
     "453.20108829.chunk.js.map": "/myiweb.github.io/static/js/453.20108829.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81028ded.css",
-    "static/js/main.48635d2a.js"
+    "static/js/main.d006a579.js"
   ]
 }
