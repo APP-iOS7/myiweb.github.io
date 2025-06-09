@@ -18,7 +18,7 @@ function WeeklyStatistic() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src="/images/statistics.png" alt="statistics preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/statistics.png"} alt="statistics" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">주별 차트</p>
                     <h2 className="large-title">한 주의 기록을<br />일정표처럼 확인하세요</h2>

@@ -27,7 +27,7 @@ function ScheduleAlarm() {
                     알림으로 꼼꼼하게 관리해보세요.
                     </p>
                 </div>
-                <img src="/images/calendar.png" alt="calendar preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/calendar.png"} alt="calendar" className="scroll-image" />
                 </div>
             </div>
 

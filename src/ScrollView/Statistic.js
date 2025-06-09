@@ -18,7 +18,7 @@ function Statistic() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src="/images/statistics.png" alt="record preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/statistics.png"} alt="statistics" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">기록 분석</p>
                     <h2 className="large-title">아기의 하루하루,<br />데이터로 확인해보세요</h2>

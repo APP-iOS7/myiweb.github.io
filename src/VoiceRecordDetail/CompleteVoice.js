@@ -26,7 +26,7 @@ function CompleteVoice() {
                     아기의 상태를 이해하는 데 큰 도움이 되죠!
                     </p>
                 </div>
-                <img src="/images/voicerecord.png" alt="voicerecord preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/voicerecord.png"} alt="voicerecord" className="scroll-image" />
                 </div>
             </div>
 

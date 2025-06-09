@@ -18,7 +18,7 @@ function Addnote() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src="/images/calendar.png" alt="calendar preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/calendar.png"} alt="calendar" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">일지&일정 추가</p>
                     <h2 className="large-title">일정은 체계적으로<br />일지는 생생하게</h2>

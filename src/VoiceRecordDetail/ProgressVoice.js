@@ -18,7 +18,7 @@ function ProgressVoice() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src="/images/voicerecord.png" alt="voicerecord preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/voicerecord.png"} alt="voicerecord" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">울음 분석 중</p>
                     <h2 className="large-title">AI가 울음소리를<br />분석하고 있어요</h2>

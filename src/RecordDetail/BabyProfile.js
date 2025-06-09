@@ -25,7 +25,7 @@ function BabyProfile() {
                     사진과 함께 아기의 정보를 확인해보세요.
                     </p>
                 </div>
-                <img src="/images/record.png" alt="record preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/record.png"} alt="record" className="scroll-image" />
                 </div>
             </div>
 

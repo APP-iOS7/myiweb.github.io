@@ -46,7 +46,7 @@ function Header() {
         <div className="main-container">
             <header className={`main-header ${isFixed ? "fixed" : ""}`}>
                 <div className="logo" onClick={() => window.location.href = "/"}>
-                <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className="logo-image" />
+                    <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className="logo-image" />
                     <span>My i</span>
                 </div>
                 <div className="header-buttons">
@@ -79,7 +79,7 @@ function Header() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img src="/images/github.png" alt="Github" className="store-button" />
+                    <img src={process.env.PUBLIC_URL + "/images/github.png"} alt="github" className="store-button" />
                 </a>
             </div>
             <div className={`scroll-arrow ${showContent ? "fade-up" : "fade-init"}`}>

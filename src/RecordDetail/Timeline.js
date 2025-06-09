@@ -17,7 +17,7 @@ function Timeline() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                <img src="/images/calendar.png" alt="record preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/record.png"} alt="record" className="scroll-image" />
                 <div className="scroll-text">
                     <p className="little-title">타임라인</p>
                     <h2 className="large-title">아기의 하루를<br />순서대로 돌아보기</h2>

@@ -18,7 +18,7 @@ function Calendar() {
         >
             <div className="scroll-section">
                 <div className="scroll-content-2">
-                    <img src="/images/calendar.png" alt="record preview" className="scroll-image" />
+                    <img src={process.env.PUBLIC_URL + "/images/calendar.png"} alt="calendar" className="scroll-image" />
                     <div className="scroll-text">
                         <p className="little-title">육아 수첩</p>
                         <h2 className="large-title">일정과 일지를 한 눈에<br />내 아기만의 기록 캘린더</h2>

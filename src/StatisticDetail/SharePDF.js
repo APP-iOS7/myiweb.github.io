@@ -25,7 +25,7 @@ function SharePDF() {
                     인쇄하거나 저장해두면 유용한 자료가 되죠.
                     </p>
                 </div>
-                <img src="/images/statistics.png" alt="statistics preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/statistics.png"} alt="statistics" className="scroll-image" />
                 </div>
             </div>
 

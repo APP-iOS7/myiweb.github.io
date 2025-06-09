@@ -25,7 +25,7 @@ function CalendarView() {
                     각 날짜를 클릭하면 해당 일자의 일정과 일지를 볼 수 있어요.
                     </p>
                 </div>
-                <img src="/images/calendar.png" alt="calendar preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/calendar.png"} alt="calendar" className="scroll-image" />
                 </div>
             </div>
 

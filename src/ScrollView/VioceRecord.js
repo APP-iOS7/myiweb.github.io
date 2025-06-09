@@ -31,7 +31,7 @@ function VioceRecord() {
                         onClick={() => navigate("/voicerecord")}
                     >더보기</button>
                 </div>
-                <img src="/images/voicerecord.png" alt="record preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/voicerecord.png"} alt="voicerecord" className="scroll-image" />
                 </div>
             </div>
 

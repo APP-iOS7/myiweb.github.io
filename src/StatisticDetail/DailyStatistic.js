@@ -26,7 +26,7 @@ function DailyStatistic() {
                     그래프로 직관적으로 확인할 수 있죠.
                     </p>
                 </div>
-                <img src="/images/statistics.png" alt="statistics preview" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/statistics.png"} alt="statistics" className="scroll-image" />
                 </div>
             </div>
 
