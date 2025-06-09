@@ -5,7 +5,7 @@ import VoiceRecordDetail from './Detail/VoiceRecordDetail';
 import StatisticsDetail from './Detail/StatisticsDetail';
 import OtherDetail from './Detail/OtherDetail';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";

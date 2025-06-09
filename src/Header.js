@@ -46,7 +46,7 @@ function Header() {
         <div className="main-container">
             <header className={`main-header ${isFixed ? "fixed" : ""}`}>
                 <div className="logo" onClick={() => window.location.href = "/"}>
-                    <img src="/images/logo.png" alt="logo" className="logo-image" />
+                <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className="logo-image" />
                     <span>My i</span>
                 </div>
                 <div className="header-buttons">
