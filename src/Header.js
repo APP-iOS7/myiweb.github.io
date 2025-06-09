@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
-
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+    const navigate = useNavigate();
 
     const [isFixed, setIsFixed] = useState(false);
     const [showContent, setShowContent] = useState(false);
@@ -45,7 +46,7 @@ function Header() {
     return (
         <div className="main-container">
             <header className={`main-header ${isFixed ? "fixed" : ""}`}>
-                <div className="logo" onClick={() => window.location.href = "/"}>
+                <div className="logo" onClick={() => navigate("/")}>
                     <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className="logo-image" />
                     <span>My i</span>
                 </div>

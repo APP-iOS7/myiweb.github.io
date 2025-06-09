@@ -25,7 +25,7 @@ function RecordDetail() {
     return (
         <div className="detail-container">
             <header className={"detail-header"}>
-                <div className="logo" onClick={() => window.location.href = "/"}>
+            <div className="logo" onClick={() => navigate("/")}>
                 <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" className="logo-image" />
                     <span>My i</span>
                 </div>
