@@ -32,7 +32,7 @@ function Other() {
                         onClick={() => navigate("/other")}
                     >더보기</button>
                 </div>
-                <img src={process.env.PUBLIC_URL + "/images/record.png"} alt="record" className="scroll-image" />
+                <img src={process.env.PUBLIC_URL + "/images/other.png"} alt="other" className="scroll-image" />
                 </div>
             </div>
 
